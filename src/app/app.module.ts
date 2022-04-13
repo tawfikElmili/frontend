@@ -13,6 +13,7 @@ import { SolutionComponent } from './pages/solution/solution.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AuditComponent } from './pages/audit/audit.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -34,7 +35,8 @@ import { AuditComponent } from './pages/audit/audit.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+     RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
